@@ -1,3 +1,4 @@
+using Calculator;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
@@ -28,6 +29,7 @@ namespace CalculatorAPI
         {
 
             services.AddControllers();
+            services.AddSingleton<IMath, Calculator.Math>();
             services.AddSwaggerGen(c =>
             {
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "CalculatorAPI", Version = "v1" });

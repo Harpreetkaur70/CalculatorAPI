@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Http;
+﻿using Calculator;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
 namespace CalculatorAPI.Controllers
@@ -7,6 +8,6 @@ namespace CalculatorAPI.Controllers
     [ApiController]
     public class CalculatorController : ControllerBase
     {
-
+        
     }
 }
