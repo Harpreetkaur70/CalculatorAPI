@@ -8,21 +8,45 @@ namespace Calculator
 {
     public class Math : IMath
     {
+        /// <summary>
+        /// Calculator method to perform addition opertion on two integers
+        /// </summary>
+        /// <param name="i"></param>
+        /// <param name="j"></param>
+        /// <returns></returns>
         public int Addition(int i, int j)
         {
             return i + j;
         }
 
-        public int Substraction(int i, int j)
+        /// <summary>
+        /// Calculator method to perform substraction opertion on two integers
+        /// </summary>
+        /// <param name="i"></param>
+        /// <param name="j"></param>
+        /// <returns></returns>
+        public int Subtraction(int i, int j)
         {
             return i - j;
         }
 
+        /// <summary>
+        /// Calculator method to perform multiplication opertion on two integers
+        /// </summary>
+        /// <param name="i"></param>
+        /// <param name="j"></param>
+        /// <returns></returns>
         public int Multiplication(int i, int j)
         {
             return i * j;
         }
 
+        /// <summary>
+        /// Calculator method to perform division opertion on two integers
+        /// </summary>
+        /// <param name="i"></param>
+        /// <param name="j"></param>
+        /// <returns></returns>
         public int Division(int i, int j)
         {
             return i / j;
