@@ -23,7 +23,7 @@ namespace Calculator
             return i * j;
         }
 
-        public int Divsion(int i, int j)
+        public int Division(int i, int j)
         {
             return i / j;
         }

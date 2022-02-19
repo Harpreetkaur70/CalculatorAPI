@@ -35,7 +35,7 @@ namespace CalculatorAPI.Controllers
         [HttpGet("Division")]
         public int Divsion(int i, int j)
         {
-            return _math.Divsion(i, j);
+            return _math.Division(i, j);
         }
     }
 }
